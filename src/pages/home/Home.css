@@ -193,14 +193,50 @@
 
 
 
+/* testimonials */
+.testimonials{
+    width:50rem;
+    margin-inline: auto;
+}
 
 
+.testimonials__head{
+    justify-content: center;
+}
 
+.card.testimonial{
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
 
+.testimonial__avatar{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    position: absolute;
+    border:2px solid transparent;
+    top: -2.5rem;
+    left: calc(50% - 2rem);
+    box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+    transition: var(--transition);
+}
 
+.testimonial:hover .testimonial__avatar{
+    border-radius: 50%;
+    border-color: var(--color-gray-400);
+}
 
+.testimonial__quote {
+    font-style: italic;
+    margin: 1rem 0 2rem;
+    font-size: 0.9rem;
+}
 
-
+.card small.testimonial__title{
+margin-top: 0.3rem;
+}
 
 
 
