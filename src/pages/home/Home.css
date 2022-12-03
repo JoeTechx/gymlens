@@ -312,7 +312,7 @@ footer{
 .footer__socials a{
     background-color: var(--color-gray-100);
     padding: 0.7rem;
-    border: 2 px solid transparent;
+    border: 2px solid transparent;
     border-radius: 0.6rem;
     transition: var(--transition);
 }
