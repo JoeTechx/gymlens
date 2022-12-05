@@ -1,5 +1,5 @@
-import{Link} from 'react-router-dom'
-import Image from "../images/main_header.png"
+import { Link } from "react-router-dom";
+import Image from "../images/main_header.png";
 const MainHeader = () => {
   return (
     <header className="main__header">
@@ -11,12 +11,14 @@ const MainHeader = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
             nisi suscipit, dolore similique dolorum ullam?
           </p>
-          <Link className="btn lg" to="./plans">Get Started</Link>
+          <Link className="btn lg" to="./plans">
+            Get Started
+          </Link>
         </div>
         <div className="main__header-right">
           <div className="main__header-circle"></div>
           <div className="main__header-image">
-          <img src={Image} alt="Main Header Img" />
+            <img src={Image} alt="Main Header Img" />
           </div>
         </div>
       </div>

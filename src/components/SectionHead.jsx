@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const SectionHead = ({title, icon, className}) => {
+const SectionHead = ({ title, icon, className }) => {
   return (
     <div className={`section__head ${className}`}>
-    <span>{icon}</span>
-    <h2>{title}</h2>
-  </div>
-  )
-}
+      <span>{icon}</span>
+      <h2>{title}</h2>
+    </div>
+  );
+};
 
-export default SectionHead
+export default SectionHead;
