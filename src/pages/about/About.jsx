@@ -35,7 +35,7 @@ const About = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo
               enim in impedit hic distinctio tempora?
-              </p>
+            </p>
           </div>
         </div>
       </section>
@@ -82,7 +82,7 @@ const About = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo
               enim in impedit hic distinctio tempora?
-              </p>
+            </p>
           </div>
         </div>
       </section>

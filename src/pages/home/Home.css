@@ -65,6 +65,7 @@
   border-radius: 50%;
   position: absolute;
   left: 1.5rem;
+  filter: blur(15px);
   transition: var(--transition);
 }
 
@@ -76,9 +77,6 @@
   width: 90%;
 }
 
-.main__header-right:hover .main__header-circle {
-  filter: blur(15px);
-}
 
 /* Programs */
 .programs {
@@ -435,5 +433,9 @@ footer {
 
   .footer__container article {
     align-items: center;
+  }
+
+  .footer__container p {
+   text-align: center;
   }
 }
